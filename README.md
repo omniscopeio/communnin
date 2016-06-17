@@ -1,50 +1,10 @@
 Communnin
 ================
+This app is being developed to house [Huginn](https://github.com/cantino/huginn) scenarios.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
-
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
-
-Problems? Issues?
------------
-
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.2.3
-- Rails 4.2.5.2
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
+The ideal flow will be that:
+- Bob exports a scenario he'd like to share from his instance of Huginn.
+- Bob logs into Communnin, and uploads his scenario JSON file
+- Jane visits Communnin looking for a scenario to help her solve a problem using Twitter
+- Jane browses the scenarios that involve Twitter and finds Bob's scenario
+- Jane imports Bob's scenario into her own Huginn instance using the URL from Communnin
